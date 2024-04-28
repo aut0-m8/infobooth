@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void play_normal(char *input) {
   char command[59];
   sprintf(command, "mpv common/%s.mp4 --loop-file=inf --msg-level=all=no --fs",
@@ -52,10 +51,7 @@ void open_pdf(const char *input) {
 }
 
 void filter(char *input) {
-  if (input == NULL || input[0] == '\0') {
-    printf("\nPlease enter something\n");
-    return;
-  } else if (isdigit(input[0])) {
+  if (isdigit(input[0])) {
     play_normal(input);
   } else {
     switch (input[0]) {
