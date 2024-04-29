@@ -5,8 +5,7 @@
 
 void play_normal(char *input) {
   char command[59];
-  sprintf(command, "mpv common/%s.mp4 --loop-file=inf --msg-level=all=no --fs",
-          input);
+  sprintf(command, "mpv common/%s.mp4 --loop-file=inf --msg-level=all=no --fs", input);
   system(command);
 }
 
@@ -36,7 +35,7 @@ void run_command(const char *input) {
     system("cat ~/.config/mpv/input.conf\n");
     break;
   case '3':
-    system("sudo reboot");
+    system("sudo reboot"); // adjust based on init system
     break;
   default:
     printf("ERR_ILLEGAL_COMMAND\n");
