@@ -1,1 +1,1 @@
-\033[31mThe \033[32mquick \033[33mbrown \033[34mfox \033[35mjumps \033[36mover \033[37mthe \033[0m\033[34mlazy \033[0m\033[31mdog\n
+\033[31mThe \033[32mquick \033[33mbrown \033[34mfox \033[35mjumps \033[36mover \033[37mthe \033[0m\033[34mlazy \033[0m\033[31mdog\033[0m\n
